@@ -5,7 +5,7 @@ import requests
 from flask import Flask, request
 
 os.environ.setdefault("MPLCONFIGDIR", "/tmp/mpl")
-import botcore as core
+import botcore5 as core
 
 app = Flask(__name__)
 SECRET = os.environ.get("WEBHOOK_SECRET", "")
